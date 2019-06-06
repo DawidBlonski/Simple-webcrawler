@@ -73,7 +73,7 @@ pytz==2018.5
 query-string==1.0.2
 ratelim==0.1.6
 request==1.0.2
-requests==2.11.1
+requests==2.20.0
 requests-toolbelt==0.7.0
 robotframework==3.1.1
 robotframework-selenium2library==3.0.0
