@@ -1,11 +1,6 @@
-import pprint
 import urllib.request
-from pprint import pprint
 from urllib.parse import urlparse, urljoin
-import time
 import bs4 as bs
-
-start = time.time()
 
 
 class Page:
@@ -45,9 +40,5 @@ def site_map(base_url):
 
     while links_to_map:
         check_and_add(links_to_map.pop())
-    pprint(map_pages)
+    return map_pages
 
-
-site_map("https://stxbook.herokuapp.com/")
-end = time.time()
-print((end - start) * 1)
